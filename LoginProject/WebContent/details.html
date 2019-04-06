@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Here</title>
+<style>
+body {
+    font-family: fantasy;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+p {
+    font-weight: 100;
+    margin: 40px;
+}
+input[type="text"],input[type="password"] {
+    width: 230px;
+    height: 40px;
+    box-shadow: #dadada 1px 1px 2px 1px;
+    border: none;
+    margin-top: 0px;
+    box-sizing:border-box;
+    position: relative;
+    margin-left: 40px;
+    padding:10px;
+}
+input[type="submit"] {
+    border: none;
+    background-color: #ff7800;
+    color: #fff;
+    font-family: fantasy;
+    position: absolute;
+    top: 360px;
+    left: 40px;
+    width: 77%;
+    height: 40px;
+    border-radius: 5px;
+}
+form {
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    box-shadow: #dadada 1px 1px 2px 1px;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+</style>
+</head>
+<body>
+<form action="login" method="post">
+<h1>Login Here</h1>
+<p>Username</p>
+<input type="text" name="username" required="required">
+<p>Password</p>
+<input type="password" name="password" required="required">
+<input type="submit" value='login'>
+</form>
+</body>
+</html>
